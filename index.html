@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workbook Login page</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body{
+            background-color: lightblue;
+        }
+        #heading{
+            color: blue;
+        }
+        .account{
+            color: rgb(7, 10, 7);
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .account1{
+            color: black;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        div{
+            background-color: rgb(247, 200, 130);
+            width: 500px;
+            margin: 30px 400px;
+            height: 400px;
+            padding: 90px;
+        }
+        /* input{
+            width: 80%;
+        } */
+        .username, .password{
+            width: 80%;
+        }
+        nav{
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="Login page.html"><img src="img/home page logo.jpg" width="200px"></a>
+        </nav>
+    </section>
+    <div>
+        <h1 id="heading">Login Workbook</h1>
+        <form>
+            <input type="text" placeholder="username" class="username"><br><br>
+            <input type="password" placeholder="password" class="password"><br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Long in">
+        </form><br>
+        <a href="Account page/Account page.html" target="_blank" class="account">Create an account</a><br>
+        <a href="Forget page/Forget_page.html" target="_blank" class="account1">Forget password</a>
+    </div>
+</body>
+</html>

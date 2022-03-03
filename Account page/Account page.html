@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account create</title>
+    <style>
+           nav{
+               display: flex;
+               padding: 2% 6%;
+               justify-content: space-between;
+               align-items: center;
+           }
+           div{
+               background-color: blue;
+               color: #fff;
+               width: 500px;
+               height: 400px;
+               margin: 30px 300px;
+               padding: 100px;
+            
+           }
+           .user{
+               width: 60%;
+           }
+           p{
+               font-size: 14px;
+           }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="../Login page.html"> <img src="../img/logo.png" width="200px"></a>
+        
+        </nav>
+
+    </section>
+    <div>
+        <h1>Create Your Workbook Account </h1>
+        <form>
+            <input type="text" name="name" placeholder="First Name" required>
+            <input type="text" name="name" placeholder="Last Name" required><br><br>
+            <input type="text" name="username" placeholder="Username" required class="user"><br><br>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="password" placeholder="confirm" required><br>
+            <p>Use 8 or more characters with a mix of letters, numbers & symbols</p><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Next">
+        </form>
+    </div>
+    
+</body>
+</html>
